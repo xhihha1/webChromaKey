@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <style>
+      body {
+        background: black;
+        color:#CCCCCC; 
+      }
+      #c2 {
+        background-image: url(./script/foo.png);
+        background-repeat: no-repeat;
+      }
+      div {
+        float: left;
+        border :1px solid #444444;
+        padding:10px;
+        margin: 10px;
+        background:#3B3B3B;
+      }
+    </style>
+	<script>
+		console.log('go1')
+	</script>
+    <script src="./script/main.js"></script>
+  </head>
+
+  <body onload="processor.doLoad()" cz-shortcut-listen="true">
+    <div>
+      <video id="video" src="./script/video.ogv" controls="true" />
+    </div>
+    <div>
+      <canvas id="c1" width="160" height="96" ></canvas>
+      <canvas id="c2" width="160" height="96" ></canvas>
+    </div>
+  </body>
+</html>
