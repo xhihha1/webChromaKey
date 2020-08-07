@@ -5,6 +5,12 @@
 
 
 ![demo](readme/demo.png)  
+[Demo 運行代碼](https://xhihha1.github.io/webChromaKey/)
+
+- index.html  
+- ./script/main.js  
+- ./script/foo.png  
+- ./script/video.ogv  
 
 原始參考網站內容如果直接使用是無法執行，需要進行修改。
 主要修改是 `<script />` 改為 `<script></script>`  
